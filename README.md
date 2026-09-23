@@ -1,27 +1,18 @@
-# PNUCSE Graphics Project — Portfolio
-파랑 계열의 개인 포트폴리오 디자인 초안 02입니다.
+# HOBIN JANG Portfolio
 
-## 실행
-- dist/index.html을 브라우저로 열거나 프로젝트 루트에서 python -m http.server 4173 --directory dist 를 실행합니다.
-- 실행 후 http://localhost:4173 에 접속합니다.
-- 본문과 작품 소개는 정적 HTML입니다. 작품 상세보기에는 app.js를 사용합니다.
-- Google Fonts와 Spotify는 인터넷 연결이 필요하며 글꼴 실패 시 시스템 대체 글꼴을 사용합니다.
+정적 HTML/CSS로 만든 3페이지 포트폴리오입니다.
 
-## 파일
-- dist/index.html: 첫 화면, MY, 작품 카드, GUITAR와 갤러리
-- dist/style.css: 파랑 팔레트, 글꼴, 반응형, 애니메이션
-- dist/app.js: 프로젝트 상세 데이터와 모달 동작
-- DESIGN.md: 설계·수정 기록
+- `dist/index.html`: 이름, 이메일, 출신, 소속 및 외부 링크
+- `dist/works.html`: 확장 가능한 작업 갤러리
+- `dist/off-hours.html`: Spotify 플레이리스트와 사진 갤러리 자리
+- `dist/style.css`: Pretendard 기반 공통 스타일과 반응형 레이아웃
 
-## 작품 추가
-1. index.html의 work-card article을 복사하고 data-project에 고유 ID를 넣습니다.
-2. 카드 이름, 행사, 표지와 접근성 라벨을 바꿉니다.
-3. app.js의 projects에 같은 ID로 title, event, description을 추가합니다.
-4. 상단 WORKS 숫자와 SELECTED PROJECTS 수를 변경합니다.
-공통 모달을 사용하므로 열기·닫기 코드를 작품마다 작성할 필요가 없습니다.
+`dist/index.html`을 직접 열거나 프로젝트 루트에서 아래 명령을 실행합니다.
 
-## 교체할 자료
-이름, 프로필 사진, 이메일, GitHub·랩실 링크, 실제 프로젝트 이미지와 기여·문제 해결·결과, 개인 플레이리스트, 취미 갤러리.
-Instagram·세론·언톡 링크는 공개 여부 결정 후 추가합니다. 업머니는 사용자 요청에 따라 보류했습니다.
-현재 작품 표지는 타이포그래피 초안이며 실제 서비스 화면으로 표시하지 않았습니다.
+```text
+python -m http.server 4173 --directory dist
+```
 
+작품을 추가할 때는 `works.html`의 `.work-item`을 복사하면 자동으로 다음 그리드 칸에 배치됩니다. 실제 사진은 `.work-image` 또는 `.photo-slot` 안에 `img`를 넣어 교체할 수 있습니다.
+
+구매 도메인: `imhobin.site` (호스팅 연결은 별도 설정)
