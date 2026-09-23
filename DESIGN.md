@@ -46,3 +46,11 @@
 - OFF HOURS에 `Playlist`, `Gallery` 소제목을 추가했다.
 - HOME 이름과 각 페이지의 제목·콘텐츠에 짧은 등장 애니메이션과 절제된 hover 반응을 추가했다.
 - `prefers-reduced-motion` 환경에서는 애니메이션을 제거한다.
+
+## 4차 수정
+
+- 모든 페이지 아래에 `CONTACT: profhb@pusan.ac.kr` 링크를 추가했다.
+- MY를 이름, 자기소개, 출신, 소속, 이메일 순서로 재구성했다.
+- 소속을 `PNU CSE 24`, 언톡 계정을 `@pnu_untoc`으로 수정했다.
+- 상세 정보와 외부 링크가 같은 라벨·값 정렬선을 사용하도록 통일했다.
+- HOME의 HOBIN과 JANG에 서로 반대 방향으로 반응하는 hover 모션을 추가했다.
