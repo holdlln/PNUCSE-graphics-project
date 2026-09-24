@@ -4,27 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WORKS — HOBIN JANG</title>
-  <meta name="description" content="HOBIN JANG의 작업 모음">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4ed8'/%3E%3Cpath d='M9 8v16M9 16h14M23 8v16' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+  <meta name="description" content="HOBIN JANG의 프로젝트와 연구 작업">
   <link rel="stylesheet" href="style.css">
-  <link rel="prefetch" href="off-hours.html">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="HOBIN JANG 홈">HB</a>
     <nav aria-label="주 메뉴">
-      <a href="index.html">HOME</a>
-      <a href="my.html">MY</a>
-      <a class="active" href="works.html" aria-current="page">WORKS</a>
-      <a href="off-hours.html">OFF HOURS</a>
+      <a href="index.html">HOME</a><a href="my.html">MY</a><a class="active" href="works.html" aria-current="page">WORKS</a><a href="off-hours.html">OFF HOURS</a>
     </nav>
   </header>
-  <main class="page-main">
-    <header class="page-heading"><h1>WORKS</h1></header>
+  <main class="page-main works-main">
+    <header class="page-heading"><h1>WORKS</h1><p>앱 개발부터 데이터 분석까지, 문제를 발견하고 직접 구현한 프로젝트입니다.</p></header>
     <section class="work-gallery" aria-label="프로젝트 갤러리">
-      <article class="work-item"><div class="work-image" role="img" aria-label="모브 대표 이미지 추가 예정"></div><div class="work-info"><h2>모브</h2><p>언톡캠프</p></div></article>
-      <article class="work-item"><div class="work-image" role="img" aria-label="북어스 대표 이미지 추가 예정"></div><div class="work-info"><h2>북어스</h2><p>언톡캠프</p></div></article>
-      <article class="work-item"><div class="work-image" role="img" aria-label="Life is Computer 대표 이미지 추가 예정"></div><div class="work-info"><h2>Life is Computer</h2><p>테크위크 해커톤</p></div></article>
+      <a class="work-item" href="work-morb.html">
+        <figure class="work-image"><img src="assets/works/morb/cover.webp" alt="MORB 감정별 기억 카드 화면" width="1400" height="1050"></figure>
+        <div class="work-info"><span class="work-meta">01 · APP · 2025.2</span><h2>MORB</h2><p>AI가 기억 속 감정을 분석해 색과 구슬로 기록하는 추억 아카이브</p><span class="work-more">프로젝트 보기 <i>↗</i></span></div>
+      </a>
+      <a class="work-item" href="work-bookus.html">
+        <figure class="work-image"><img src="assets/works/bookus/cover.webp" alt="BookUs 홈, 독서 타이머와 책바퀴 화면" width="1400" height="1050" loading="lazy"></figure>
+        <div class="work-info"><span class="work-meta">02 · APP · 2025.1</span><h2>BookUs</h2><p>독서 기록과 모임 운영, 책 교환을 하나로 연결한 독서 커뮤니티 앱</p><span class="work-more">프로젝트 보기 <i>↗</i></span></div>
+      </a>
+      <a class="work-item" href="work-joseon.html">
+        <figure class="work-image"><img src="assets/works/joseon/cover.webp" alt="조선기담 운세 콘텐츠 선택 화면" width="1600" height="900" loading="lazy"></figure>
+        <div class="work-info"><span class="work-meta">03 · WEB · 2026</span><h2>조선기담</h2><p>MBTI와 사주를 조선시대 세계관으로 재해석한 TECHWEEK 체험형 웹사이트</p><span class="work-more">프로젝트 보기 <i>↗</i></span></div>
+      </a>
+      <a class="work-item" href="work-school-risk.html">
+        <figure class="work-image work-image-contain"><img src="assets/works/school-risk/cover.webp" alt="부산 초중고 학교 통학로 위험도 분석 포스터" width="1400" height="1050" loading="lazy"></figure>
+        <div class="work-info"><span class="work-meta">04 · DATA · 2025.1</span><h2>부산 통학로 위험도 분석</h2><p>공공데이터와 공간 분석으로 부산 617개 학교 주변의 통학 위험을 평가</p><span class="work-more">프로젝트 보기 <i>↗</i></span></div>
+      </a>
     </section>
   </main>
   <footer class="site-footer"><a href="mailto:profhb@pusan.ac.kr"><span>CONTACT:</span> profhb@pusan.ac.kr</a><span class="footer-affiliation">PNU CSE 24</span></footer>
