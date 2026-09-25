@@ -132,6 +132,7 @@ nav a.active::after { content:""; position:absolute; left:0; right:0; bottom:3px
 .photo-gallery figure:nth-child(1),.photo-gallery figure:nth-child(2) { grid-column:span 2; }
 .photo-gallery figure:nth-child(3),.photo-gallery figure:nth-child(4) { grid-row:span 2; }
 .photo-gallery img { width:100%; height:100%; display:block; object-fit:cover; transition:transform .45s cubic-bezier(.2,.75,.25,1); }
+.photo-gallery figure:nth-child(6) img { object-fit:contain; }
 .site-footer { min-height:64px; margin:0 var(--side); border-top:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; color:#7b8493; }
 .site-footer a { min-height:44px; display:inline-flex; align-items:center; gap:7px; color:inherit; font-size:13px; font-weight:500; text-decoration:none; }
 .site-footer span { color:inherit; font-size:12px; font-weight:600; letter-spacing:.04em; }
