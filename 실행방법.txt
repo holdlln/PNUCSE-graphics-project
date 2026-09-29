@@ -1,0 +1,3 @@
+실행방법
+1. dist/index.html 파일 실행
+2. https://imhobin.site/ 링크 접속
